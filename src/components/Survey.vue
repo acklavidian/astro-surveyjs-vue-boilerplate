@@ -58,9 +58,5 @@ creator.saveSurveyFunc = (saveNo: number, callback: Function) => {
 </script>
 
 <template>
-  <div>Eddies Content
-    <div>
-      <SurveyCreatorComponent :model="creator"/>
-    </div>
-  </div>
+  <SurveyCreatorComponent :model="creator"/>
 </template>
